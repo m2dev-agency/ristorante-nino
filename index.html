@@ -1,10 +1,79 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>m2dev-stack-starter</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Ristorante Nino | Cucina Tradizionale Abruzzese dal 1961 | Chieti</title>
+    <meta name="description" content="Ristorante Nino a Chieti: oltre 60 anni di cucina tradizionale abruzzese. Specialità: saccottini pera e gorgonzola, arrosticini, pasta alla chitarra. Prenota il tuo tavolo!" />
+    <meta name="keywords" content="ristorante chieti, cucina abruzzese, ristorante tradizionale, arrosticini, pasta alla chitarra, ristorante centro storico chieti, cerimonie chieti" />
+    <meta name="author" content="Ristorante Nino" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Ristorante Nino | Dal 1961 a Chieti" />
+    <meta property="og:description" content="Cucina tradizionale abruzzese nel cuore di Chieti. 60+ anni di storia, passione e sapori autentici." />
+    <meta property="og:url" content="https://ninoristorante.it" />
+    <meta property="og:locale" content="it_IT" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ristorante Nino | Dal 1961 a Chieti" />
+    <meta name="twitter:description" content="Cucina tradizionale abruzzese nel cuore di Chieti." />
+    
+    <!-- Restaurant Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Ristorante Nino",
+      "alternateName": "Nino È Ristorante",
+      "url": "https://ninoristorante.it",
+      "telephone": "+39 0871 63781",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Viale Principessa di Piemonte 7",
+        "addressLocality": "Chieti",
+        "postalCode": "66100",
+        "addressRegion": "CH",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.3513,
+        "longitude": 14.1675
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "19:30",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "servesCuisine": ["Italian", "Abruzzese", "Traditional"],
+      "priceRange": "€€-€€€",
+      "acceptsReservations": "True",
+      "foundingDate": "1961"
+    }
+    </script>
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#722F37" />
   </head>
   <body>
     <div id="root"></div>
